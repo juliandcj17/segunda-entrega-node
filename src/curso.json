@@ -1,0 +1,29 @@
+[{
+        "id": 1,
+        "nombre": "Fisica",
+        "duracion": 38,
+        "valor": 0,
+        "estado": "disponible"
+    },
+    {
+        "id": 2,
+        "nombre": "Electronica",
+        "duracion": 50,
+        "valor": 90000,
+        "estado": "disponible"
+    },
+    {
+        "id": 3,
+        "nombre": "Memes",
+        "duracion": 120,
+        "valor": 0,
+        "estado": "disponible"
+    },
+    {
+        "id": 852,
+        "nombre": "Vamos colombia",
+        "duracion": 90,
+        "valor": 10000,
+        "estado": "cerrado"
+    }
+]

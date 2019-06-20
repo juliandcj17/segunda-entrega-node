@@ -1,0 +1,46 @@
+{{>header}}
+
+<h1 class="center-align">matricularse en un curso</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-2"></div>
+        <div class="col-sm-12">
+            <form action="/matriculas" method="POST" name="/matriculas">
+                <div class="form-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <input type="number" class="validate" placeholder="Documento" name="documento">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        
+                        <input type="text" class="validate" class="form-control" placeholder="Nombre" name="nombre">
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Ej: Node@tdea.edu.co" name="email">
+                   <div class="input-field col s12 m12">
+                       <i class="material-icons prefix">phone</i>
+                        <input id="telefono" type="number" class="validate" name="telefono">
+                        <label for="telefono">telefono</label>
+                        
+                    </div>
+                </div>
+
+                {{{listarCusosMatriculas}}}
+
+                <div class="row">
+                <div class="container text-align: center">
+                    <button class="btn waves-effect green lighten-1" type="submit" 
+                        name="send">Agregar aqui<i class="material-icons right">send</i>
+                    </button>
+                </div>
+                </div>
+            
+            </form>
+        </div>
+        <div class="col-sm-12 col-md-2"></div>
+    </div>
+</div>
+{{>footer}}
