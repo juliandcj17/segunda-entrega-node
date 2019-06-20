@@ -1,5 +1,5 @@
 ### Descarga y descomprime el archivo
-descomprimalousando npm install asi se instalan todos los paquetes necesarios
+descomprimalo usando *npm install* asi se instalan todos los paquetes necesarios
 
 # para ejecutar use el comando npm run dev
 
